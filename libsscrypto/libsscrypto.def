@@ -1,0 +1,20 @@
+LIBRARY
+
+EXPORTS
+	aes_crypt_cfb128
+	aes_free
+	aes_init
+	aes_setkey_enc
+	arc4_crypt
+	arc4_free
+	arc4_init
+	arc4_setup
+	crypto_core_salsa20
+	crypto_stream_chacha20_xor_ic
+	crypto_stream_salsa20_xor_ic
+	sodium_memzero
+	crc16
+	ss_check_crc
+	ss_gen_crc
+	ss_onetimeauth
+	ss_onetimeauth_verify
