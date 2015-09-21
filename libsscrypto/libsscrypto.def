@@ -13,8 +13,6 @@ EXPORTS
 	crypto_stream_chacha20_xor_ic
 	crypto_stream_salsa20_xor_ic
 	sodium_memzero
-	crc16
-	ss_check_crc
-	ss_gen_crc
-	ss_onetimeauth
-	ss_onetimeauth_verify
+	crypto_generichash
+	crypto_onetimeauth
+	crypto_onetimeauth_verify
