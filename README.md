@@ -15,15 +15,17 @@ Build libsscrypto.dll for shadowsocks-windows.
 
   a) Open libsscrypto.sln with Visual Studio 2015.
 	 
-  b) Change the configuration to Release or Debug and platform to Win32.
+  b) Change the configuration to Release or Debug
   
-  c) Right click the project mbedTLS, and select Properties.
+  c) Change the platform to Win32.
   
-     i) Select General on left panel, and change Platform Toolset to v140.
+  d) Right click the project mbedTLS, and select Properties.
+  
+         i) Select General on left panel, and change Platform Toolset to v140.
 	 
 	 ii) Select C/C++ / Code Generation, and change Runtime Library to /MT or /MTd .
   
-  d) Right click Solution, and select Build Solution.
+  e) Right click Solution, and select Build Solution.
   
   
   
