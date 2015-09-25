@@ -15,24 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="libsscrypto.h">
+    <ClInclude Include="..\shadowsocks-libev\src\hmac-sha1.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="..\shadowsocks-libev\src\hmac-sha1.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libsscrypto.cpp">
+    <ClCompile Include="hmac-sha1-api.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

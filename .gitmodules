@@ -4,3 +4,6 @@
 [submodule "mbedtls"]
 	path = mbedtls
 	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "shadowsocks-libev"]
+	path = shadowsocks-libev
+	url = https://github.com/shadowsocks/shadowsocks-libev.git
