@@ -15,14 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\shadowsocks-libev\src\hmac-sha1.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\shadowsocks-libev\src\hmac-sha1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="hmac-sha1-api.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -31,5 +23,10 @@
     <None Include="libsscrypto.def">
       <Filter>源文件</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mbedtls\include\mbedtls\md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
