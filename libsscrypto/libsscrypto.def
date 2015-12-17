@@ -11,6 +11,7 @@ EXPORTS
 	arc4_crypt=mbedtls_arc4_crypt
 	crypto_core_salsa20
 	crypto_stream_chacha20_xor_ic
+	crypto_stream_chacha20_ietf_xor_ic
 	crypto_stream_salsa20_xor_ic
 	sodium_memzero
 	ss_sha1_hmac_ex

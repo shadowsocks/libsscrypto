@@ -159,14 +159,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\shadowsocks-libev\src\hmac-sha1.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\shadowsocks-libev\src\hmac-sha1.c" />
     <ClCompile Include="hmac-sha1-api.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="libsscrypto.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mbedtls\include\mbedtls\md.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
