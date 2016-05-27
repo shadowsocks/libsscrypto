@@ -15,8 +15,4 @@ EXPORTS
 	crypto_stream_salsa20_xor_ic
 	sodium_memzero
 	ss_sha1_hmac_ex
-	md5_init=mbedtls_md5_init
-	md5_free=mbedtls_md5_free
-	md5_starts=mbedtls_md5_starts
-	md5_update=mbedtls_md5_update
-	md5_finish=mbedtls_md5_finish
+	md5=mbedtls_md5
