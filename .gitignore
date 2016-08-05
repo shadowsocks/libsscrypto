@@ -73,6 +73,8 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+# Visual Studio 2015 Update 2 IntelliSense database
+*.VC.db
 
 # Visual Studio profiler
 *.psess
