@@ -159,12 +159,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cipher_set_operation_ex.c" />
     <ClCompile Include="hmac-sha1-api.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="libsscrypto.def" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\mbedtls\include\mbedtls\cipher.h" />
     <ClInclude Include="..\mbedtls\include\mbedtls\md.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

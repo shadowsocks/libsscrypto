@@ -18,6 +18,9 @@
     <ClCompile Include="hmac-sha1-api.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cipher_set_operation_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="libsscrypto.def">
@@ -26,6 +29,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\mbedtls\include\mbedtls\md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mbedtls\include\mbedtls\cipher.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

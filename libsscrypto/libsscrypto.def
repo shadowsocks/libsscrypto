@@ -1,18 +1,19 @@
 LIBRARY
 
 EXPORTS
-	aes_init=mbedtls_aes_init
-	aes_free=mbedtls_aes_free
-	aes_setkey_enc=mbedtls_aes_setkey_enc
-	aes_crypt_cfb128=mbedtls_aes_crypt_cfb128
-	arc4_init=mbedtls_arc4_init
-	arc4_free=mbedtls_arc4_free
-	arc4_setup=mbedtls_arc4_setup
-	arc4_crypt=mbedtls_arc4_crypt
+	cipher_update=mbedtls_cipher_update
+	cipher_info_from_string=mbedtls_cipher_info_from_string
+	cipher_init=mbedtls_cipher_init
+	cipher_setup=mbedtls_cipher_setup
+	cipher_setkey=mbedtls_cipher_setkey
+	cipher_set_iv=mbedtls_cipher_set_iv
+	cipher_reset=mbedtls_cipher_reset
+	cipher_free=mbedtls_cipher_free
 	crypto_core_salsa20
 	crypto_stream_chacha20_xor_ic
 	crypto_stream_chacha20_ietf_xor_ic
 	crypto_stream_salsa20_xor_ic
 	sodium_memzero
 	ss_sha1_hmac_ex
+	cipher_set_operation_ex
 	md5=mbedtls_md5
