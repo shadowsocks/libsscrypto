@@ -21,6 +21,9 @@
     <ClCompile Include="cipher_set_operation_ex.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cipher_get_size_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="libsscrypto.def">

@@ -16,4 +16,5 @@ EXPORTS
 	sodium_memzero
 	ss_sha1_hmac_ex
 	cipher_set_operation_ex
+	cipher_get_size_ex
 	md5=mbedtls_md5
