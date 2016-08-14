@@ -160,7 +160,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cipher_get_size_ex.c" />
-    <ClCompile Include="cipher_set_operation_ex.c" />
     <ClCompile Include="hmac-sha1-api.c" />
   </ItemGroup>
   <ItemGroup>

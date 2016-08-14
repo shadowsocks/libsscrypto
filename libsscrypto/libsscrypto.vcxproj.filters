@@ -18,9 +18,6 @@
     <ClCompile Include="hmac-sha1-api.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cipher_set_operation_ex.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="cipher_get_size_ex.c">
       <Filter>源文件</Filter>
     </ClCompile>
