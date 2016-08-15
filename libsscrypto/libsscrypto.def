@@ -9,11 +9,9 @@ EXPORTS
 	cipher_set_iv=mbedtls_cipher_set_iv
 	cipher_reset=mbedtls_cipher_reset
 	cipher_free=mbedtls_cipher_free
-	crypto_core_salsa20
 	crypto_stream_chacha20_xor_ic
 	crypto_stream_chacha20_ietf_xor_ic
 	crypto_stream_salsa20_xor_ic
-	sodium_memzero
 	ss_sha1_hmac_ex
 	cipher_get_size_ex
 	md5=mbedtls_md5
