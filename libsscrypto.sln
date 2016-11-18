@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Blend for Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsscrypto", "libsscrypto\libsscrypto.vcxproj", "{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -49,8 +49,8 @@ Global
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.DebugLTCG|x64.Build.0 = Debug|x64
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.DebugLTCG|x86.ActiveCfg = Debug|Win32
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.DebugLTCG|x86.Build.0 = Debug|Win32
-		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x64.ActiveCfg = Release|Win32
-		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x64.Build.0 = Release|Win32
+		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x64.ActiveCfg = Release|x64
+		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x64.Build.0 = Release|x64
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x86.ActiveCfg = Release|Win32
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.Release|x86.Build.0 = Release|Win32
 		{827C6D45-7F84-44A5-BF15-A5CD7ED79A9C}.ReleaseDLL|x64.ActiveCfg = Release|x64
@@ -81,8 +81,8 @@ Global
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DebugLTCG|x64.Build.0 = DebugLTCG|x64
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DebugLTCG|x86.ActiveCfg = DebugLTCG|Win32
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.DebugLTCG|x86.Build.0 = DebugLTCG|Win32
-		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x64.ActiveCfg = ReleaseLIB|Win32
-		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x64.Build.0 = ReleaseLIB|Win32
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x64.ActiveCfg = ReleaseLIB|x64
+		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x64.Build.0 = ReleaseLIB|x64
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x86.ActiveCfg = ReleaseLIB|Win32
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.Release|x86.Build.0 = ReleaseLIB|Win32
 		{A185B162-6CB6-4502-B03F-B56F7699A8D9}.ReleaseDLL|x64.ActiveCfg = ReleaseDLL|x64
@@ -113,8 +113,8 @@ Global
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.DebugLTCG|x64.Build.0 = Debug|x64
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.DebugLTCG|x86.ActiveCfg = Debug|Win32
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.DebugLTCG|x86.Build.0 = Debug|Win32
-		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x64.ActiveCfg = Release|Win32
-		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x64.Build.0 = Release|Win32
+		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x64.ActiveCfg = Release|x64
+		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x64.Build.0 = Release|x64
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x86.ActiveCfg = Release|Win32
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.Release|x86.Build.0 = Release|Win32
 		{46CF2D25-6A36-4189-B59C-E4815388E554}.ReleaseDLL|x64.ActiveCfg = Release|x64
