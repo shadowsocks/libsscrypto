@@ -35,14 +35,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -84,7 +84,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(SolutionDir)libsodium\src\libsodium\include;$(SolutionDir)mbedtls\include;$(SolutionDir)shadowsocks-libev\src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)libsodium\bin\Win32\Release\v140\static;$(SolutionDir)$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)libsodium\bin\Win32\Release\v141\static;$(SolutionDir)$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -162,7 +162,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cipher_get_size_ex.c" />
-    <ClCompile Include="hmac-sha1-api.c" />
+    <ClCompile Include="hkdf.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="libsscrypto.def" />

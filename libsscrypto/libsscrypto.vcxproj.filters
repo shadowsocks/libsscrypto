@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hmac-sha1-api.c">
+    <ClCompile Include="cipher_get_size_ex.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cipher_get_size_ex.c">
+    <ClCompile Include="hkdf.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
