@@ -6,10 +6,12 @@ Build libsscrypto.dll for shadowsocks-windows.
 
 1) Get source code
 
-    git clone https://github.com/shadowsocks/libsscrypto.git
-    cd libsscrypto
-    git submodule update --init
-    
+```
+git clone https://github.com/shadowsocks/libsscrypto.git
+cd libsscrypto
+git submodule update --init
+```
+
 2) Compile
 
   a) Open libsscrypto.sln with Visual Studio 2017.
