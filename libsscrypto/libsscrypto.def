@@ -22,5 +22,5 @@ EXPORTS
 	sodium_increment
 	sodium_init
 	cipher_get_size_ex
-	md5=mbedtls_md5
+	md5_ret=mbedtls_md5_ret
 	hkdf=mbedtls_hkdf
