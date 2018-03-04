@@ -16,11 +16,23 @@ EXPORTS
 	crypto_stream_salsa20_xor_ic
 	crypto_aead_chacha20poly1305_ietf_encrypt
 	crypto_aead_chacha20poly1305_ietf_decrypt
+	crypto_aead_xchacha20poly1305_ietf_encrypt
+	crypto_aead_xchacha20poly1305_ietf_decrypt
 	crypto_aead_aes256gcm_encrypt
 	crypto_aead_aes256gcm_decrypt
 	crypto_aead_aes256gcm_is_available
 	sodium_increment
 	sodium_init
 	cipher_get_size_ex
-	md5=mbedtls_md5
+	md5_ret=mbedtls_md5_ret
 	hkdf=mbedtls_hkdf
+	EVP_CIPHER_CTX_new
+	EVP_CIPHER_CTX_free
+	EVP_CIPHER_CTX_reset
+	EVP_CipherInit_ex
+	EVP_CipherUpdate
+	EVP_CipherFinal_ex
+	EVP_CIPHER_CTX_set_padding
+	EVP_CIPHER_CTX_set_key_length
+	EVP_CIPHER_CTX_ctrl
+	EVP_get_cipherbyname

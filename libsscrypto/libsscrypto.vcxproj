@@ -48,7 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
@@ -84,7 +84,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(SolutionDir)libsodium\src\libsodium\include;$(SolutionDir)mbedtls\include;$(SolutionDir)shadowsocks-libev\src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)libsodium\bin\Win32\Release\v141\static;$(SolutionDir)$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)libsodium\bin\Win32\Release\v141\static;$(SolutionDir)$(Configuration);$(SolutionDir)openssl-prebuilt-lib\$(Platform)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -138,7 +138,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Ws2_32.lib;libsodium.lib;mbedTLS.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;crypt32.lib;libsodium.lib;mbedTLS.lib;libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>libsscrypto.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
